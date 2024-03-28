@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg my-nav-bg p-3 d-flex justify-content-between">
+        <div class="container">
+          <a class="navbar-brand text-uppercase text-white" href="#">smart login</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse bg-danger position-relative navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item position-absolute">
+                <button onclick="logOut()" type="button" class="btnLogOut  btn btn-outline-warning my-btn-secondary">Logout</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="section-container p-5">
+        <div class="section-content text-center">
+            <h1 id="welcome">Welcome </h1>
+        </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

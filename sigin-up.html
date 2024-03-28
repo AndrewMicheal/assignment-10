@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="section-container p-5">
+        <div class="section-content text-center">
+            <h1>Smart Login System</h1>
+        </div>
+        <div class="forms">
+            <div class="mt-5 mb-3">
+                <input type="text" class="form-control name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-4">
+                <input type="password" class="form-control password" id="password" placeholder="Enter your password">
+            </div>
+            <p class="text-center text-danger d-none mt-2 emailErrMsg">Email already exists</p>
+            <p class="text-center text-danger d-none errMsg">All inputs is required</p>
+            <button type="button" class="btn btn-outline-info my-btn-info my-2 w-100 btnSiginUp">Sign Up</button>
+            <p class="text-white text-center mt-2">You have an account? <a href="./index.html" class="text-white my-link">Signin</a></p>
+        </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sigin-up.js"></script>
+</body>
+</html>
